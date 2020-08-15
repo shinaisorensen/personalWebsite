@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<!-- 
+    Author: Shinai Sorensen
+    Date: June 10, 2020
+ -->
+
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name='keywords' content='shinai, sorensen'>
+    <meta name='description' content="(Think 'shin-eye') and I created this website to showcase my skills at front-end and back-end web development. Now that I've graduated I'm currently looking for opportunities in the IT industry.">
+    
+    <!-- Title of page -->
+    <title>Shinai Sorensen</title>
+
+    <!-- reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- CSS style sheet -->
+    <link rel='stylesheet' href='css/index.css'>
+
+    <!-- jQuery and jQuery UI -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src='js/index.js'></script>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav id='navbar'>
+        <a class='toggle button'><i class="fa fa-bars"></i></a>
+        <ul class='collapse'>
+            <li><a class='navLink' href='#profile'>Profile</a></li>
+            <li><a class='navLink' href='#aboutMe'>About Me</a></li>
+            <li><a class='navLink' href='#education'>Education</a></li>
+            <li><a class='navLink' href='#projects'>Projects</a></li>
+            <li><a class='navLink' href='#contact'>Contact</a></li>
+            <li><a class='navLink download' href='#' download>Download My Resume</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- Welcome and introduction section -->
+        <section id='profile'>
+            <figure>
+                <img src='images/topShot.jpg' alt='Shinai Sorensen'>
+            </figure>
+                
+            <div>
+                <p>Hello! I'm</p>
+                <h3>Shinai Sorensen</h3>
+                <p>(Think 'shin-eye') and I created this website to showcase my skills at front-end and back-end web development.<br><br>Now that I've graduated I'm currently looking for opportunities in the IT industry.</p>
+            </div>
+        </section>
+        
+        <!-- About me section -->
+        <section id='aboutMe'>
+            <br><br><br>
+            <h2>About Me</h2>
+            <div id='aboutContainer'>
+                <p>I studied at the British Columbia Institute of Technology and graduated from their School of Computing with a focus on Computer Systems Technology.</p>
+                <p>I was a goalkeeper for regional and provincial field hockey teams for two years and played for the Premiere Island Wildcats team for one year. I continued to play field hockey for another two years on the varsity team at the University of Guelph.</p>
+                <p>I recently moved back to Victoria and am working on several personal projects: creating this website, learning Python, and learning Japanese to take the N5 level exam.</p>
+                <div id='skillsContainer'>
+                    <p class='skillLabel'><b>Proficient in:</b></p>
+                    <p class='skillDes'>HTML5, CSS3, SASS, Visual Studio Code, Eclipse, MS Office, English</p>
+                    <p class='skillLabel'><b>Familiar with:</b></p>
+                    <p class='skillDes'>jQuery, JavaScript, PHP, Java, C, Bootstrap, MySQL, JSON, GitHub, WordPress, cPanel, Firebase, AutoCAD, SolidWorks, French, Scrum</p>
+                    <p class='skillLabel'><b>Learning:</b></p>
+                    <p class='skillDes'>Python, Japanese</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education section -->
+        <section id='education'>
+            <br><br><br>
+            <h2>Education</h2>
+            <div class='eduContainer'>
+                <div class='school'>
+                    <p><b>British Columbia Institute of Technology</b></p>
+                    <p>2018-2020</p>
+                </div>
+                <div class='program'>
+                    <p><b>Computer Systems Technology</b></p>
+                    <p>This program taught me a lot about HTML, CSS, Java, and C, but I also learned about jQuery, JavaScript, PHP, Bootstrap, MySQL, JSON, GitHub and Scrum. During my second year I was the Scrum Master for some of my class projects and I took advanced web development courses so I could create this site.</p>
+                </div>
+            </div>
+            <div class='eduContainer'>
+                <div class='school'>
+                    <p><b>University of Guelph</b></p>
+                    <p>2014-2017</p>
+                </div>
+                <div class='program'>
+                    <p><b>Biomedical Engineering</b></p>
+                    <p>My studies mainly focused on math and science while using AutoCAD, SolidWorks and 3D printers for my engineering projects. I had my first introduction to programming languages during my time here and decided to move closer to home and study computer science.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section id='projects'>
+            <br><br><br>
+            <h2>Projects</h2>
+            <p>Take a look at my projects below or check out my <a href='https://github.com/shinaisorensen' target='_blank'>GitHub page.</a></p>
+            <div id='projectContainer'>
+                <div class='projectItemContainer'>
+                    <a href='#projects'><img src='images/personalSite.jpg' alt='Personal Website'></a>
+                    <div class='projectItem'>
+                        <p><b>Personal Project, June 2020: Personal Website</b></p>
+                        <p><b>Skills and Tools:</b> HTML5, CSS3, SASS, jQuery, PHP, Visual Studio Code, cPanel, Scrum</p>
+                        <p>Designed and created a personal website to showcase information about me, my education, and my projects. Used agile principles to complete the site over three weekly sprints.</p>
+                    </div>
+                </div>
+
+                <div class='projectItemContainer'>
+                    <a href='https://shinaisorensen.wixsite.com/comp2833team3' target='_blank'><img src='images/agileCourseSite.jpg' alt='Agile Course Site'></a>
+                    <div class='projectItem'>
+                        <p><b>Class Project, July 2020: Designing an Agile Course Website</b></p>
+                        <p><b>Skills and Tools:</b> WordPress, Trello, Scrum</p>
+                        <p>Created a website in a class that focused on Agile principles and the Scrum methodology to improve WordPress and team-building skills in a team of four. Wrote several sections and created the design, ensuring the entire site was uniform. Helped edit and organize each team member’s sections.</p>
+                        <p><a href='https://trello.com/b/Kn7vS13f/team-3-term-project-2020'>Link to Trello Board</a></p>
+                    </div>
+                </div>
+
+                <div class='projectItemContainer'>
+                    <a href='meta.html' target='_blank'><img src='images/finalProjectMeta.jpg' alt='Final Project Meta Site'></a>
+                    <div class='projectItem'>
+                        <p><b>Class Project, March 2020: Redesigning Class Website</b></p>
+                        <p><b>Skills and Tools:</b> HTML5, CSS3, SASS, Visual Studio Code</p>
+                        <p>Redesigned my COMP 1950’s class website to increase user accessibility, decrease loading speed and establish forward compatibility for updates to increase user traffic and improve user experience. Created the structure and design for all pages. To view the original design, <a href='http://bcitcomp.ca/1950/'>click here.</a></p>
+                    </div>
+                </div>
+                
+                <div class='projectItemContainer'>
+                    <a href='https://recouver-ac06e.firebaseapp.com/index.html' target='_blank'><img src='images/recouver.jpg' alt='ReCouver'></a>
+                    <div class='projectItem'>
+                        <p><b>Class Project, April-May 2019: ReCouver</b></p>
+                        <p><b>Skills and Tools:</b> HTML, CSS, jQuery, JavaScript, Bootstrap, Firebase, Visual Studio Code, Scrum</p>
+                        <p>Created an informative website in a team of five to help people reduce waste. Acted as a scrum master for each sprint and contributed to the design and structure of the site. Edited, organized, and commented each member’s code.</p>
+                    </div>
+                </div>
+                
+                <div class='projectItemContainer'>
+                    <a href='https://geh-database.firebaseapp.com/' target='_blank'><img src='images/goodEarthHub.jpg' alt='Good Earth Hub'></a>
+                    <div class='projectItem'>
+                        <p><b>Class Project, November-December 2018: Good Earth Hub</b></p>
+                        <p><b>Skills and Tools:</b> HTML, CSS, JavaScript, Bootstrap, Firebase, Visual Studio Code, Scrum</p>
+                        <p>Created a search engine for ethically made products in a team of four to help solve the problem of fast fashion. Acted as a scrum master for each sprint and contributed to the design and structure of the site.  Edited, organized, and commented each member’s code.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
