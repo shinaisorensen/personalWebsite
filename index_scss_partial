@@ -1,0 +1,43 @@
+/* 
+    Author: Shinai Sorensen
+    Date: June 10, 2020
+*/
+
+// CSS reset
+@import url('reset/cssReset.css');
+
+// CSS sheet for Font Awesome icons
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+// Variables
+// Colors
+$black: #000000;
+$deep: #374025;
+$grass: #ADBF69;
+$seed: #B8BF7E;
+$beige: #A68A7B;
+$offwhite: #D9D9D9;
+
+// Values
+$navWidth: 200px; // width of navigation and margin-left value for main content to keep them as two columns
+$secLowPad: 20px; // bottom padding for sections not including profile
+$font: Verdana, Tahoma, sans-serif;
+
+body {
+    font-family: $font;
+    font-size: 16px;
+}
+
+b {
+    color: $deep;
+}
+
+// Fixed side navigation bar for desktops
+nav {
+    height: 100%;
+    width: $navWidth;
+    position: fixed;
+    text-align: center;
+    background-color: $seed;
+}
